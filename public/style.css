@@ -190,18 +190,17 @@ body {
 .footer {
   background-color: #f7ea00;
   color: black;
+  text-align: center;
+  padding: 10px;
 }
-.footerIn {
-  margin-left: 100px;
-}
-.footerIn img {
+.footer img {
   width: 30px;
   height: 30px;
   border-radius: 50%;
   margin-right: 10px;
   border: 2px solid #f7ea00;
 }
-.footerIn img:hover {
+.footer img:hover {
   border: none;
 }
 .footer h3 {
@@ -210,11 +209,6 @@ body {
 .footer p {
   font-weight: bold;
   padding-top: 20px;
-}
-.DevCred {
-  text-align: center;
-  clear: both;
-  padding-bottom: 30px;
 }
 
 @media screen and (max-width: 960px) {
