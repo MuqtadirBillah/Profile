@@ -217,6 +217,16 @@ body {
   padding-bottom: 30px;
 }
 
+@media screen and (max-width: 960px) {
+  .navbar-toggler-icon {
+    background-color: black;
+    border-radius: 5px;
+  }
+  .navbar-toggler-icon p {
+    color: rgba(247, 234, 0, 1);
+  }
+}
+
 @media screen and (max-width: 750px) {
   .certificate {
     height: 240px;
