@@ -220,6 +220,14 @@ body {
 @media screen and (max-width: 750px) {
   .certificate {
     height: 240px;
+    padding: 0px;
+    text-align: center;
+  }
+  .certificate h3 {
+    font-size: 15px;
+  }
+  .certificate img {
+    padding-top: 30px;
   }
   .cerImg {
     text-align: center;
@@ -230,6 +238,9 @@ body {
     margin-top: 10px;
     margin-left: 20px;
     float: none;
+    text-align: center;
+  }
+  .footer {
     text-align: center;
   }
 }
